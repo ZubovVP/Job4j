@@ -25,10 +25,11 @@
 <body>
 <style>
     body {
+        color: black;
+        background-color: darkgray;
         margin: 0;
         padding: 0;
         font-family: "Times New Roman", serif;
-        background-color: #459DE5;
     }
 
     .box {
@@ -38,7 +39,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background: #ffccff;
         border-radius: 50px;
     }
 
@@ -47,11 +47,11 @@
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 2px solid #ffbf80;
+        border: 2px solid #00802b;
         padding: 14px 10px;
         width: 200px;
         outline: none;
-        color: white;
+        color: black;
         border-radius: 24px;
     }
 
@@ -64,7 +64,7 @@
         padding: 14px 40px;
         width: 200px;
         outline: none;
-        color: white;
+        color: black;
         border-radius: 24px;
     }
 
@@ -94,7 +94,7 @@
         return result;
     }
 </script>
-<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #99ffff;">
+<nav class="navbar navbar-expand-sm navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="http://www.bootstrap.com">
             <img src="<c:url value="https://www.drupal.org/files/project-images/bootstrap-stack.png"/>"
@@ -105,12 +105,12 @@
                  class="float-left">
         </a>
         <a class="navbar-brand" href="https://www.w3.org/Style/CSS/">
-            <img src="<c:url value="http://codingwithalex.com/wp-content/uploads/2017/09/CSS-1200x1200.png"/>"
+            <img src="<c:url value="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/c8d75681dcd87da6f7d8ebfa0cdb40cbb403bed8.png"/>"
                  class="float-left">
         </a>
 
         <a class="navbar-brand" href="https://www.javascript.com">
-            <img src="<c:url value="http://www.seanritter.com/assets/js-logo-d20abe9ebbeb5be6242dbf06660f22a115e2dbdaf9659276198cce9dbe7f69e4.png"/>"
+            <img src="<c:url value="https://img2.freepng.ru/20180417/fsw/kisspng-javascript-node-js-angularjs-jquery-github-5ad5a9c7373410.5023404615239520712261.jpg"/>"
                  class="float-left">
         </a>
 

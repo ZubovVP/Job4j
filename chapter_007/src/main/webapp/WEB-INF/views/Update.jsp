@@ -80,8 +80,9 @@
 <body>
 <style type="text/css">
     body {
+        background-color: darkgray;
+        color: black;
         margin: 0;
-        background-color: orange;
     }
 
     .display-4 {
@@ -96,8 +97,6 @@
         width: 150px;
         height: 40px;
         border-radius: 20px;
-        background: #459DE5;
-        color: #fff;
         font-size: 18px;
         cursor: pointer;
         position: relative;
@@ -123,24 +122,23 @@
         <a class="navbar-brand" href="http://www.bootstrap.com">
             <img src="<c:url value="https://www.drupal.org/files/project-images/bootstrap-stack.png"/>"
                  class="float-left">
-
         </a>
         <a class="navbar-brand" href="https://html.com">
             <img src="<c:url value="https://cdn-images-1.medium.com/max/1200/1*MJ9Y4_tCTv99Gs_xZYlKrA.png"/>"
                  class="float-left">
         </a>
         <a class="navbar-brand" href="https://www.w3.org/Style/CSS/">
-            <img src="<c:url value="http://codingwithalex.com/wp-content/uploads/2017/09/CSS-1200x1200.png"/>"
+            <img src="<c:url value="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/c8d75681dcd87da6f7d8ebfa0cdb40cbb403bed8.png"/>"
                  class="float-left">
         </a>
 
         <a class="navbar-brand" href="https://www.javascript.com">
-            <img src="<c:url value="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/1284113/original/b39d9f8fd959132ec77dcd14a4df26b9620b34ba/code-java-program-fix-errors-and-do-your-assignments-and-projects.png"/>"
+            <img src="<c:url value="https://img2.freepng.ru/20180417/fsw/kisspng-javascript-node-js-angularjs-jquery-github-5ad5a9c7373410.5023404615239520712261.jpg"/>"
                  class="float-left">
         </a>
 
         <a class="navbar-brand" href="https://www.java.com/">
-            <img src="<c:url value="https://cdn.icon-icons.com/icons2/1381/PNG/512/java_93883.png"/>"
+            <img src="<c:url value="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/1284113/original/b39d9f8fd959132ec77dcd14a4df26b9620b34ba/code-java-program-fix-errors-and-do-your-assignments-and-projects.png"/>"
                  class="float-left">
         </a>
         <form class="form-inline" action="${pageContext.servletContext.contextPath}/">
